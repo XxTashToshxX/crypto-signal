@@ -2,6 +2,6 @@ version: '3'
 
 services:
   app:
-    image: tashtosh/crypto_signal:master
+    image: tashtosh/crypto_signal:latest
     volumes:
       - ./config.yml:/app/config.yml
