@@ -17,12 +17,9 @@ class Configuration():
         with open('defaults.yml', 'r') as config_file:
             default_config = yaml.load(config_file)
 
-        if os.path.isfile('config.yml'):
-            with open('config.yml', 'r') as config_file:
-                user_config = yaml.load(config_file)
-        else:
-            with open('defaults.yml', 'r') as config_file:
-                user_config = yaml.load(config_file)
+
+        with open('defaults.yml', 'r') as config_file:
+            user_config = yaml.load(config_file)
 
         if 'settings' in user_config:
             self.settings = {**default_config['settings'], **user_config['settings']}
