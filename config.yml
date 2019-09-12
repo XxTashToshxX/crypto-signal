@@ -2,6 +2,7 @@
 # Full documentation here: https://github.com/CryptoSignal/crypto-signal/blob/master/docs/config.md
 
 settings:
+    log_mode: text
     log_level: INFO
     update_interval: 500
     market_pairs:
