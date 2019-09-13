@@ -167,13 +167,6 @@ indicators:
           alert_frequency: once
           signal:
             - leading_span_a
-          hot: 0
-          cold: 0
-          candle_period: 1d
-        - enabled: true
-          alert_enabled: false
-          alert_frequency: once
-          signal:
             - leading_span_b
           hot: 0
           cold: 0
@@ -183,13 +176,6 @@ indicators:
           alert_frequency: once
           signal:
             - leading_span_a
-          hot: 0
-          cold: 0
-          candle_period: 1h
-        - enabled: true
-          alert_enabled: false
-          alert_frequency: once
-          signal:
             - leading_span_b
           hot: 0
           cold: 0
@@ -283,18 +269,18 @@ crossovers:
           key_indicator_type: indicators
           key_signal: leading_span_a
           crossed_indicator: ichimoku
-          crossed_indicator_index: 1
+          crossed_indicator_index: 0
           crossed_indicator_type: indicators
           crossed_signal: leading_span_b
         - enabled: true
           alert_enabled: true
           alert_frequency: once
           key_indicator: ichimoku
-          key_indicator_index: 2
+          key_indicator_index: 1
           key_indicator_type: indicators
           key_signal: leading_span_a
           crossed_indicator: ichimoku
-          crossed_indicator_index: 3
+          crossed_indicator_index: 1
           crossed_indicator_type: indicators
           crossed_signal: leading_span_b
 
