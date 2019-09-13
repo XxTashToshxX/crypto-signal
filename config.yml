@@ -168,6 +168,8 @@ indicators:
           signal:
             - leading_span_a
             - leading_span_b
+          hot: true
+          cold: true
           candle_period: 1d
         - enabled: true
           alert_enabled: true
@@ -175,6 +177,8 @@ indicators:
           signal:
             - leading_span_a
             - leading_span_b
+          hot: true
+          cold: true
           candle_period: 1h
 
 informants:
