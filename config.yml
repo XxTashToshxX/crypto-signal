@@ -15,9 +15,6 @@ exchanges:
     bitstamp:
         required:
             enabled: true
-    coinbase:
-        required:
-            enabled: true
 
 indicators:
     rsi:
