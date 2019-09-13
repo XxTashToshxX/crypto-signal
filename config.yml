@@ -192,7 +192,6 @@ informants:
             - ema
           candle_period: 1d
           period_count: 21
-    ema:
         - enabled: true
           signal:
             - ema
