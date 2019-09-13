@@ -171,7 +171,6 @@ indicators:
           hot: 0
           cold: 0
           candle_period: 1d
-          period_count: 26
         - enabled: true
           alert_enabled: false
           alert_frequency: once
@@ -180,7 +179,6 @@ indicators:
           hot: 0
           cold: 0
           candle_period: 1d
-          period_count: 26
         - enabled: true
           alert_enabled: false
           alert_frequency: once
@@ -189,7 +187,6 @@ indicators:
           hot: 0
           cold: 0
           candle_period: 1h
-          period_count: 26
         - enabled: true
           alert_enabled: false
           alert_frequency: once
@@ -198,7 +195,6 @@ indicators:
           hot: 0
           cold: 0
           candle_period: 1h
-          period_count: 26
 informants:
     ema:
         - enabled: true
