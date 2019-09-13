@@ -165,10 +165,16 @@ indicators:
         - enabled: true
           alert_enabled: true
           alert_frequency: once
+          signal:
+            - leading_span_a
+            - leading_span_b
           candle_period: 1d
         - enabled: true
           alert_enabled: true
           alert_frequency: once
+          signal:
+            - leading_span_a
+            - leading_span_b
           candle_period: 1h
 
 informants:
