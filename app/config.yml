@@ -6,12 +6,13 @@ settings:
     update_interval: 300
     market_pairs:
         - BTC/USD
+        - BTC/USDT
 
 exchanges:
     bitfinex:
         required:
             enabled: true
-    bitstamp:
+    binance:
         required:
             enabled: true
 
